@@ -1,37 +1,5 @@
-sidux-art-momos (1.2.3) UNRELEASED; urgency=low
+sidux-art-moros (0.0.1) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * branch off Μόρος development from Μώμος with dummy artwork.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 11 Nov 2009 00:50:01 +0100
-
-sidux-art-momos (1.2.2) unstable; urgency=low
-
-  * import seminarix wallpaper-edu, thanks to klaymen.
-  * hook up into buildsystem.
-
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 11 Nov 2009 00:48:31 +0100
-
-sidux-art-momos (1.2.1) unstable; urgency=low
-
-  * fix exporting options for normal aspect ratios - source image is 1680x1050, 
-    not 1920x1200 which the original makefile catered to
-  * fix xfce splash export - aspect ratio was getting buggered up -
-    use native 640x480 size
-
- -- Bernard Gray <bernard.gray@gmail.com>  Fri, 25 Sep 2009 20:12:15 +1000
-
-sidux-art-momos (1.2.0) unstable; urgency=low
-
-  * New upstream release
-  * fix kde-theme *.install release misname
-
- -- Bernard Gray <bernard.gray@gmail.com>  Mon, 21 Sep 2009 23:09:59 +1000
-
-sidux-art-momos (1.0.1) unstable; urgency=low
-
-  * Initial Release.
-  * cleanup from cruft accidentally committed
-  * update *.install to handle new output locations
-  * rename *.install to momos
-
- -- Bernard Gray <bernard.gray@gmail.com>  Sat, 19 Sep 2009 15:41:35 +1000
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 20 Nov 2009 22:04:52 +0100

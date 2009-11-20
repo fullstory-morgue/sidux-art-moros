@@ -7,9 +7,9 @@ SVG= logo.svg
 all: $(BITMAPS)
 
 logo.png:
-	mkdir -p sidux-momos/balou
+	mkdir -p sidux-moros/balou
 	inkscape --without-gui --export-width=640 --export-height=480 \
-		--export-png="sidux-momos/balou/$@" $(SVG)
-	cp themerc sidux-momos/balou/
+		--export-png="sidux-moros/balou/$@" $(SVG)
+	cp themerc sidux-moros/balou/
 clean:
-	$(RM) -r sidux-momos/
+	$(RM) -r sidux-moros/

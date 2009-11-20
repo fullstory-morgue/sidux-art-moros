@@ -1,4 +1,4 @@
-Source: sidux-art-momos
+Source: sidux-art-moros
 Section: graphics
 Priority: extra
 Maintainer: Bernard Gray <bernard.gray@gmail.com>
@@ -9,78 +9,78 @@ Build-Depends: debhelper (>= 7),
  libxml-parser-perl,
  ttf-dustin
 Standards-Version: 3.8.3
-Vcs-Svn: svn://svn.berlios.de/fullstory/sidux-art-momos/trunk
-Vcs-Browser: http://svn.berlios.de/wsvn/fullstory/sidux-art-momos/trunk/
+Vcs-Svn: svn://svn.berlios.de/fullstory/sidux-art-moros/trunk
+Vcs-Browser: http://svn.berlios.de/wsvn/fullstory/sidux-art-moros/trunk/
 
-Package: sidux-art-gdm-momos
+Package: sidux-art-gdm-moros
 Architecture: all
 Depends: ${misc:Depends},
  gdm
-Description: GDM theme for sidux 2009-03 release
- the default GDM theme for the 2009-03 (Μώμος)
+Description: GDM theme for sidux 2009-04 release
+ the default GDM theme for the 2009-04 (Μόρος)
  sidux release.
 
-Package: sidux-art-kde-momos
+Package: sidux-art-kde-moros
 Architecture: all
 Provides: sidux-art-kde-theme
 Depends: ${misc:Depends},
- sidux-art-ksplash-momos,
- sidux-art-kdm-momos
-Recommends: sidux-art-wallpaper-momos, dmz-cursor-theme
-Description: KDE theme for sidux 2009-03 release
+ sidux-art-ksplash-moros,
+ sidux-art-kdm-moros
+Recommends: sidux-art-wallpaper-moros, dmz-cursor-theme
+Description: KDE theme for sidux 2009-04 release
  Virtual package providing ksplash, kdm and KDE themes
- for sidux 2009-03 (Μώμος) release
+ for sidux 2009-04 (Μόρος) release
 
-Package: sidux-art-kdm-momos
+Package: sidux-art-kdm-moros
 Architecture: all
 Depends: ${misc:Depends},
  kdm
-Description: KDM theme for sidux 2009-03 release
- the default KDM theme for the 2009-03 (Μώμος)
+Description: KDM theme for sidux 2009-04 release
+ the default KDM theme for the 2009-04 (Μόρος)
  sidux release.
 
-Package: sidux-art-ksplash-momos
+Package: sidux-art-ksplash-moros
 Architecture: all
 Depends: ${misc:Depends},
  kdebase-workspace-bin
-Description: KDE ksplash theme for sidux 2009-03 release
- the default KDE ksplash theme for the 2009-03
- (Μώμος) sidux release, using the default ksplash engine
+Description: KDE ksplash theme for sidux 2009-04 release
+ the default KDE ksplash theme for the 2009-04
+ (Μόρος) sidux release, using the default ksplash engine
 
-Package: sidux-art-xsplash-momos
+Package: sidux-art-xsplash-moros
 Architecture: all
 Depends: ${misc:Depends},
  xfce4-session
-Description: Xfce splash theme for sidux 2009-03 release
- the default Xfce splash theme for the 2009-03
- (Μώμος) sidux release, based on balou theme engine.
+Description: Xfce splash theme for sidux 2009-04 release
+ the default Xfce splash theme for the 2009-04
+ (Μόρος) sidux release, based on balou theme engine.
 
-Package: sidux-art-wallpaper-momos
+Package: sidux-art-wallpaper-moros
 Architecture: all
 Provides: sidux-art-wallpaper-theme
-Conflicts: sidux-art-wallpaper-momos-edu
+Conflicts: sidux-art-wallpaper-moros-edu
 Depends: ${misc:Depends}
-Description: sidux wallpaper for 2009-03 release
- The official wallpaper for the 2009-03 (Μώμος)
+Description: sidux wallpaper for 2009-04 release
+ The official wallpaper for the 2009-04 (Μόρος)
  sidux release.
 
-Package: sidux-art-wallpaper-momos-edu
+Package: sidux-art-wallpaper-moros-edu
 Architecture: all
 Provides: sidux-art-wallpaper-theme,
- sidux-art-wallpaper-momos
-Conflicts: sidux-art-wallpaper-momos
+ sidux-art-wallpaper-moros
+Conflicts: sidux-art-wallpaper-moros
 Depends: ${misc:Depends}
-Description: sidux-seminarix wallpaper for 2009-03 release
- The official wallpaper for the 2009-03 (Μώμος)
+Description: sidux-seminarix wallpaper for 2009-04 release
+ The official wallpaper for the 2009-04 (Μόρος)
  sidux-seminarix release.
 
-Package: sidux-art-xfce-momos
+Package: sidux-art-xfce-moros
 Architecture: all
 Provides: sidux-art-xfce-theme
 Depends: ${misc:Depends},
- sidux-art-xsplash-momos,
- sidux-art-gdm-momos
-Recommends: sidux-art-wallpaper-momos, dmz-cursor-theme
-Description: Xfce theme for sidux 2009-03 release
+ sidux-art-xsplash-moros,
+ sidux-art-gdm-moros
+Recommends: sidux-art-wallpaper-moros, dmz-cursor-theme
+Description: Xfce theme for sidux 2009-04 release
  Virtual package providing Xfce-splash and gdm themes
- for sidux 2009-03 (Μώμος) release
+ for sidux 2009-04 (Μόρος) release

@@ -6,25 +6,25 @@ all: $(BITMAPS)
 
 
 files:
-	mkdir ./sidux-momos
-	cp language.png sidux-momos/
-	cp GdmGreeterTheme.desktop sidux-momos/
-	cp session.png sidux-momos/
-	cp system.png sidux-momos/
-	cp momos.xml sidux-momos/
-	cp screenshot.png sidux-momos/
+	mkdir ./sidux-moros
+	cp language.png sidux-moros/
+	cp GdmGreeterTheme.desktop sidux-moros/
+	cp session.png sidux-moros/
+	cp system.png sidux-moros/
+	cp moros.xml sidux-moros/
+	cp screenshot.png sidux-moros/
 
 background:
 	inkscape --without-gui --export-width=1920 --export-height=1200 \
-		--export-png="./sidux-momos/$@.png" $@.svg
+		--export-png="./sidux-moros/$@.png" $@.svg
 
 branding-icon:
 	inkscape --without-gui --export-width=100 --export-height=100 \
-		--export-png="./sidux-momos/$@.png" $@.svg
+		--export-png="./sidux-moros/$@.png" $@.svg
 
 sidux-text:
 	inkscape --without-gui --export-width=190 --export-height=64 \
-		--export-png="./sidux-momos/$@.png" $@.svg
+		--export-png="./sidux-moros/$@.png" $@.svg
 
 clean:
-	$(RM) -r ./sidux-momos
+	$(RM) -r ./sidux-moros

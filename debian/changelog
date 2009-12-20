@@ -1,8 +1,4 @@
-sidux-art-moros (0.0.2) UNRELEASED; urgency=low
-
-  [ Stefan Lippers-Hollmann ]
-  * NOT RELEASED YET
-  * small visual adaptions to the wallpaper.
+sidux-art-moros (0.0.2) unstable; urgency=low
 
   [ Bernard Gray ]
   * adjust Makefile to handle normal and wide aspect images
@@ -13,6 +9,9 @@ sidux-art-moros (0.0.2) UNRELEASED; urgency=low
   * update splash-xfce background to suit moros themes 
   * update splash-kde background, makefile and preview images
   * update gdm and kdm themes to use same background as wallpaper
+
+  [ Stefan Lippers-Hollmann ]
+  * small visual adaptions to the wallpaper.
 
  -- David Creedy <klaymen@sidux.com>  Sun, 20 Dec 2009 22:01:07 +1100
 

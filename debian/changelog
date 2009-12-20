@@ -10,9 +10,10 @@ sidux-art-moros (0.0.2) UNRELEASED; urgency=low
   [ David Creedy ]
   * added normal and wide aspect ratio source svgs
   * update metadata
-  * update splash-kde background to suit moros themes 
+  * update splash-xfce background to suit moros themes 
+  * update splash-kde background, makefile and preview images
 
- -- David Creedy <klaymen@sidux.com>  Sun, 20 Dec 2009 21:00:10 +1100
+ -- David Creedy <klaymen@sidux.com>  Sun, 20 Dec 2009 21:44:28 +1100
 
 sidux-art-moros (0.0.1) unstable; urgency=low
 

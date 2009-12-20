@@ -2,7 +2,8 @@ Source: sidux-art-moros
 Section: graphics
 Priority: extra
 Maintainer: Bernard Gray <bernard.gray@gmail.com>
-Uploaders: Stefan Lippers-Hollmann <s.l-h@gmx.de>
+Uploaders: Stefan Lippers-Hollmann <s.l-h@gmx.de>,
+ David Creedy <klaymen@sidux.com>
 Build-Depends: debhelper (>= 7),
  inkscape,
  perl,

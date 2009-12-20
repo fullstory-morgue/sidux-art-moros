@@ -20,7 +20,6 @@ all: $(SIZES)
 	$(RM) $(NAME)/contents/images/$@.png
 	inkscape --without-gui --export-width=$(firstword $(subst x, ,$@ )) \
 		--export-height=$(lastword $(subst x, ,$@ )) \
-		--export-area=183.75:0:1496.25:1050 \
 		--export-png="$(NAME)/contents/images/$@.png" $(NAME).svg
 
 1024x768 1600x1200:
@@ -28,7 +27,6 @@ all: $(SIZES)
 	$(RM) $(NAME)/contents/images/$@.png
 	inkscape --without-gui --export-width=$(firstword $(subst x, ,$@ )) \
 		--export-height=$(lastword $(subst x, ,$@ )) \
-		--export-area=140:0:1540:1050 \
 		--export-png="$(NAME)/contents/images/$@.png" $(NAME).svg
 
 1280x800 1440x900 1920x1200:

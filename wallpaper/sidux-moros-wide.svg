@@ -13,10 +13,10 @@
    id="svg6346"
    sodipodi:version="0.32"
    inkscape:version="0.47 r22583"
-   width="1600"
+   width="1920"
    height="1200"
    version="1.0"
-   sodipodi:docname="sidux-moros-wide.svg"
+   sodipodi:docname="sidux-moros.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    inkscape:export-filename="/home/klaymen/Desktop/test.png"
    inkscape:export-xdpi="90"
@@ -36,11 +36,11 @@
      id="namedview6348"
      showgrid="false"
      inkscape:zoom="0.35355339"
-     inkscape:cx="1042.2101"
+     inkscape:cx="1426.8762"
      inkscape:cy="445.43447"
      inkscape:window-x="-4"
      inkscape:window-y="-3"
-     inkscape:current-layer="layer4"
+     inkscape:current-layer="layer5"
      inkscape:window-maximized="1"
      showguides="true"
      inkscape:guide-bbox="true" />
@@ -144,7 +144,7 @@
        fx="958"
        cy="600"
        cx="958"
-       gradientTransform="matrix(0.83333333,0,0,0.62519521,1.6666667,224.88287)"
+       gradientTransform="matrix(1,0,0,0.62519521,2,224.88287)"
        gradientUnits="userSpaceOnUse"
        id="radialGradient3620"
        xlink:href="#linearGradient3591-8"
@@ -234,7 +234,7 @@
        fx="960"
        fy="600"
        r="957.50922"
-       gradientTransform="matrix(0.83550108,0,0,0.62662583,-2.0810472,224.02451)"
+       gradientTransform="matrix(1.0026013,0,0,0.62662583,-2.4972566,224.02451)"
        gradientUnits="userSpaceOnUse" />
     <inkscape:perspective
        id="perspective4902"
@@ -243,6 +243,19 @@
        inkscape:vp_y="0 : 1000 : 0"
        inkscape:vp_x="0 : 0.5 : 1"
        sodipodi:type="inkscape:persp3d" />
+    <filter
+       inkscape:collect="always"
+       id="filter4928"
+       x="-0.035307668"
+       width="1.0706153"
+       y="-0.26589566"
+       height="1.5317913"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="8.1308497"
+         id="feGaussianBlur4930" />
+    </filter>
     <inkscape:perspective
        id="perspective2867"
        inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
@@ -282,6 +295,18 @@
          height="1200"
          x="0"
          y="0" />
+    </mask>
+    <mask
+       maskUnits="userSpaceOnUse"
+       id="mask3661">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:none"
+         id="rect3663"
+         width="814.80676"
+         height="522.35181"
+         x="187.26697"
+         y="-974.55408"
+         transform="matrix(0.95006921,-0.31203925,-0.31203925,-0.95006921,0,0)" />
     </mask>
     <inkscape:perspective
        id="perspective3692"
@@ -412,26 +437,13 @@
        id="filter3758"
        x="-0.027545488"
        width="1.055091"
-       y="-0.14637741"
-       height="1.2927548"
-       color-interpolation-filters="sRGB">
+       y="-0.14637742"
+       height="1.2927548">
       <feGaussianBlur
          inkscape:collect="always"
          stdDeviation="6.3596269"
          id="feGaussianBlur3760" />
     </filter>
-    <mask
-       maskUnits="userSpaceOnUse"
-       id="mask2889">
-      <rect
-         y="-974.55408"
-         x="246.67996"
-         height="522.35181"
-         width="679.00568"
-         id="rect2891"
-         style="fill:#ffffff;fill-opacity:1;stroke:none"
-         transform="matrix(0.95006921,-0.31203925,-0.31203925,-0.95006921,0,0)" />
-    </mask>
   </defs>
   <g
      inkscape:groupmode="layer"
@@ -442,7 +454,7 @@
     <rect
        style="fill:url(#radialGradient3620);fill-opacity:1;fill-rule:evenodd;stroke:none"
        id="rect2817"
-       width="1600"
+       width="1920"
        height="1200"
        x="0"
        y="0" />
@@ -454,7 +466,7 @@
      style="opacity:0.1842105;display:inline"
      sodipodi:insensitive="true">
     <path
-       transform="matrix(2.2387306,-0.71684848,-0.73528519,-2.1825962,-581.27341,2238.8454)"
+       transform="matrix(2.2387306,-0.71684848,-0.73528519,-2.1825962,-441.27341,2238.8454)"
        d="m 777.81744,521.17749 c 12.12501,9.67872 -7.06467,21.1194 -16.08667,20.15255 -24.44905,-2.6201 -31.712,-32.74488 -24.21843,-52.32589 13.40424,-35.02582 57.42216,-43.89152 88.56511,-28.28431 45.70354,22.9042 56.38566,82.41743 32.3502,124.80433 -32.03548,56.49506 -107.52341,69.01104 -161.04355,36.41608 -67.34964,-41.01744 -81.70378,-132.6816 -40.48197,-197.28277 49.92514,-78.24068 157.8691,-94.43539 233.522,-44.54785 89.15432,58.79074 107.1914,183.07484 48.61373,269.76121 C 871.40762,749.95368 730.74508,769.83453 633.03742,702.55045 522.01578,626.09801 500.29006,469.03118 576.29193,360.3108 661.55454,238.34296 835.04395,214.77149 954.7708,299.49942 c 132.9195,94.06407 158.3375,283.98948 64.8773,414.7181 C 916.78904,858.09286 710.4175,885.35788 568.69075,783.16066 413.85632,671.51168 384.74375,448.68614 495.68172,295.96412 616.11676,130.16804 855.40249,99.207509 1019.1175,218.88922 c 176.7598,129.21797 209.5686,384.9689 81.1408,559.67497"
        sodipodi:t0="0"
        sodipodi:argument="-18.175886"
@@ -466,7 +478,7 @@
        id="path3660"
        style="fill:none;stroke:#000000;stroke-width:85.40691376;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        sodipodi:type="spiral"
-       mask="url(#mask2889)" />
+       mask="url(#mask3661)" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -489,12 +501,12 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="Dark Edge"
-     style="display:inline"
+     style="display:none"
      sodipodi:insensitive="true">
     <rect
        style="opacity:0.44078944;fill:url(#radialGradient4174);fill-opacity:1;stroke:none;display:inline"
        id="rect4166"
-       width="1600"
+       width="1920"
        height="1200"
        x="0"
        y="0" />
@@ -503,11 +515,10 @@
      inkscape:groupmode="layer"
      id="layer5"
      inkscape:label="Text"
-     style="display:inline"
-     sodipodi:insensitive="true">
+     style="display:inline">
     <g
        id="g3762"
-       transform="translate(-100,128)">
+       transform="translate(240,128)">
       <text
          transform="matrix(0.94954907,0,0,1.0531315,8,104)"
          sodipodi:linespacing="125%"

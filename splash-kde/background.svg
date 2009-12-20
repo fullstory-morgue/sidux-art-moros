@@ -16,7 +16,7 @@
    width="1920"
    height="1200"
    version="1.0"
-   sodipodi:docname="sidux-moros.svg"
+   sodipodi:docname="background.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    inkscape:export-filename="/home/klaymen/Desktop/test.png"
    inkscape:export-xdpi="90"
@@ -36,11 +36,11 @@
      id="namedview6348"
      showgrid="false"
      inkscape:zoom="0.35818589"
-     inkscape:cx="329.35634"
+     inkscape:cx="1023.0827"
      inkscape:cy="407.84605"
      inkscape:window-x="-4"
      inkscape:window-y="-3"
-     inkscape:current-layer="layer4"
+     inkscape:current-layer="layer5"
      inkscape:window-maximized="1"
      showguides="true"
      inkscape:guide-bbox="true" />
@@ -52,7 +52,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -243,19 +243,6 @@
        inkscape:vp_y="0 : 1000 : 0"
        inkscape:vp_x="0 : 0.5 : 1"
        sodipodi:type="inkscape:persp3d" />
-    <filter
-       inkscape:collect="always"
-       id="filter4928"
-       x="-0.035307668"
-       width="1.0706153"
-       y="-0.26589566"
-       height="1.5317913"
-       color-interpolation-filters="sRGB">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="8.1308497"
-         id="feGaussianBlur4930" />
-    </filter>
     <inkscape:perspective
        id="perspective2867"
        inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
@@ -425,6 +412,18 @@
          x="-227.80479"
          y="-167.51079" />
     </mask>
+    <filter
+       inkscape:collect="always"
+       id="filter3683"
+       x="-0.36976912"
+       width="1.7395382"
+       y="-1.3930836"
+       height="3.7861672">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="69.682855"
+         id="feGaussianBlur3685" />
+    </filter>
   </defs>
   <g
      inkscape:groupmode="layer"
@@ -465,7 +464,8 @@
      inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="Lines"
-     style="opacity:0.55592107;display:inline">
+     style="opacity:0.55592107;display:inline"
+     sodipodi:insensitive="true">
     <path
        id="path4887"
        style="opacity:0.13486843;fill:none;stroke:#ffffff;stroke-width:2.60543108px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -500,28 +500,5 @@
      inkscape:groupmode="layer"
      id="layer5"
      inkscape:label="Text"
-     style="display:inline"
-     sodipodi:insensitive="true">
-    <text
-       id="text4920"
-       y="642.8233"
-       x="702.97931"
-       style="font-size:108.99375153px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;display:inline;filter:url(#filter4928);font-family:Dustismo;-inkscape-font-specification:Dustismo"
-       xml:space="preserve"
-       transform="matrix(1.0175871,0,0,1.0308566,-17.276748,-18.739189)"><tspan
-         y="642.8233"
-         x="702.97931"
-         id="tspan4922"
-         sodipodi:role="line">sidux:moros</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:108.99375153px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;font-family:Dustismo;-inkscape-font-specification:Dustismo"
-       x="702.97931"
-       y="632.8233"
-       id="text4890"><tspan
-         sodipodi:role="line"
-         id="tspan4892"
-         x="702.97931"
-         y="632.8233">sidux:moros</tspan></text>
-  </g>
+     style="display:inline" />
 </svg>

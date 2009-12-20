@@ -2,7 +2,7 @@
 
 ICONS= icon1
 THEME= sidux-moros
-CONTROLDIR= 1680x1050
+CONTROLDIR= 1920x1200
 BITMAPS= background text
 ANIMCREATOR= ./svg-anim.pl
 

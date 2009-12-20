@@ -1,42 +1,42 @@
 #!/usr/bin/make -f
 
 NAME= sidux-moros
+NAMEWIDE= $(NAME)-wide
 SIZES= 400x250 1024x768 1280x800 1280x1024 1440x900 1600x1200 1920x1200 
-SVG= sidux-moros.svg
 
 all: $(SIZES)
-	mkdir -p sidux-moros
-	cp metadata.desktop sidux-moros/
+	mkdir -p $(NAME)
+	cp metadata.desktop $(NAME)/
 
 400x250:
-	mkdir -p sidux-moros/contents/
-	$(RM) sidux-moros/contents/screenshot.png
+	mkdir -p $(NAME)/contents/
+	$(RM) $(NAME)/contents/screenshot.png
 	inkscape --without-gui --export-width=$(firstword $(subst x, ,$@ )) \
 		--export-height=$(lastword $(subst x, ,$@ )) \
-		--export-png="sidux-moros/contents/screenshot.png" $(SVG)
+		--export-png="$(NAME)/contents/screenshot.png" $(NAMEWIDE).svg
 
 1280x1024:
-	mkdir -p sidux-moros/contents/images/
-	$(RM) sidux-moros/contents/images/$@.png
+	mkdir -p $(NAME)/contents/images/
+	$(RM) $(NAME)/contents/images/$@.png
 	inkscape --without-gui --export-width=$(firstword $(subst x, ,$@ )) \
 		--export-height=$(lastword $(subst x, ,$@ )) \
 		--export-area=183.75:0:1496.25:1050 \
-		--export-png="sidux-moros/contents/images/$@.png" $(SVG)
+		--export-png="$(NAME)/contents/images/$@.png" $(NAME).svg
 
 1024x768 1600x1200:
-	mkdir -p sidux-moros/contents/images/
-	$(RM) sidux-moros/contents/images/$@.png
+	mkdir -p $(NAME)/contents/images/
+	$(RM) $(NAME)/contents/images/$@.png
 	inkscape --without-gui --export-width=$(firstword $(subst x, ,$@ )) \
 		--export-height=$(lastword $(subst x, ,$@ )) \
 		--export-area=140:0:1540:1050 \
-		--export-png="sidux-moros/contents/images/$@.png" $(SVG)
+		--export-png="$(NAME)/contents/images/$@.png" $(NAME).svg
 
 1280x800 1440x900 1920x1200:
-	mkdir -p sidux-moros/contents/images/
-	$(RM) sidux-moros/contents/images/$@.png
+	mkdir -p $(NAME)/contents/images/
+	$(RM) $(NAME)/contents/images/$@.png
 	inkscape --without-gui --export-width=$(firstword $(subst x, ,$@ )) \
 		--export-height=$(lastword $(subst x, ,$@ )) \
-		--export-png="sidux-moros/contents/images/$@.png" $(SVG)
+		--export-png="$(NAME)/contents/images/$@.png" $(NAMEWIDE).svg
 
 clean:
-	$(RM) -r sidux-moros/
+	$(RM) -r $(NAME)/

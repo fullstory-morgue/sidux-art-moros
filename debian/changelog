@@ -7,7 +7,11 @@ sidux-art-moros (0.0.2) UNRELEASED; urgency=low
   [ Bernard Gray ]
   * adjust Makefile to handle normal and wide aspect images
 
- -- Bernard Gray <bernard.gray@gmail.com>  Sun, 20 Dec 2009 13:35:34 +1100
+  [ David Creedy ]
+  * added normal and wide aspect ratio source svgs
+  * update metadata
+
+ -- David Creedy <klaymen@sidux.com>  Sun, 20 Dec 2009 13:56:11 +1100
 
 sidux-art-moros (0.0.1) unstable; urgency=low
 

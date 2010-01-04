@@ -1,9 +1,13 @@
 sidux-art-moros (0.0.3) UNRELEASED; urgency=low
 
+  [ Chris Hildebrandt ]
   * NOT RELEASED YET
   * sync lxde changes with noc
 
- -- Chris Hildebrandt <slam@sidux.com>  Fri, 25 Dec 2009 11:36:19 +0100
+  [ Bernard Gray ]
+  * add symlink to wide wallpaper version for xfce users
+
+ -- Bernard Gray <bernard.gray@gmail.com>  Mon, 04 Jan 2010 15:30:26 +1100
 
 sidux-art-moros (0.0.2) unstable; urgency=low
 

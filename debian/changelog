@@ -7,8 +7,9 @@ sidux-art-moros (0.0.3) UNRELEASED; urgency=low
   [ Bernard Gray ]
   * add symlink to wide wallpaper version for xfce users
   * modify kdm bg handling to scale correctly for different aspect ratios
+  * modify ksplash bg handling to scale correctly for different aspect ratios
 
- -- Bernard Gray <bernard.gray@gmail.com>  Wed, 06 Jan 2010 22:09:41 +1100
+ -- Bernard Gray <bernard.gray@gmail.com>  Wed, 06 Jan 2010 22:20:48 +1100
 
 sidux-art-moros (0.0.2) unstable; urgency=low
 

@@ -1,10 +1,5 @@
-sidux-art-moros (0.0.3) UNRELEASED; urgency=low
+sidux-art-moros (0.0.3) unstable; urgency=low
 
-  [ Chris Hildebrandt ]
-  * NOT RELEASED YET
-  * sync lxde changes with noc
-
-  [ Bernard Gray ]
   * add symlink to wide wallpaper version for xfce users
   * modify kdm bg handling to scale correctly for different aspect ratios
   * modify ksplash bg handling to scale correctly for different aspect ratios

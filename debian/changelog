@@ -1,8 +1,13 @@
 sidux-art-moros (1.1) UNRELEASED; urgency=low
 
+  [ Stefan Lippers-Hollmann ]
   * NOT RELEASED YET
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 11 Jan 2010 01:33:11 +0100
+  [ Bernard Gray ]
+  * 1920x1080 res broke dm* on last update, resize dm-* bg to allow for this
+  * update Makefile for dm* to export at new resolution
+
+ -- Bernard Gray <bernard.gray@gmail.com>  Mon, 11 Jan 2010 17:59:36 +1100
 
 sidux-art-moros (1.0) unstable; urgency=low
 

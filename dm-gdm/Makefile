@@ -15,7 +15,7 @@ files:
 	cp screenshot.png sidux-moros/
 
 background:
-	inkscape --without-gui --export-width=1920 --export-height=1200 \
+	inkscape --without-gui --export-width=2134 --export-height=1200 \
 		--export-png="./sidux-moros/$@.png" $@.svg
 
 branding-icon:

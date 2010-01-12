@@ -1,9 +1,5 @@
-sidux-art-moros (1.1) UNRELEASED; urgency=low
+sidux-art-moros (1.1) unstable; urgency=low
 
-  [ Stefan Lippers-Hollmann ]
-  * NOT RELEASED YET
-
-  [ Bernard Gray ]
   * 1920x1080 res broke dm* on last update, resize dm-* bg to allow for this
   * update Makefile for dm* to export at new resolution
 

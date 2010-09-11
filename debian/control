@@ -9,7 +9,7 @@ Build-Depends: debhelper (>= 7),
  perl,
  libxml-parser-perl,
  ttf-dustin
-Standards-Version: 3.8.4
+Standards-Version: 3.9.1
 Vcs-Svn: svn://svn.berlios.de/fullstory/sidux-art-moros/trunk
 Vcs-Browser: http://svn.berlios.de/wsvn/fullstory/sidux-art-moros/trunk/
 
@@ -27,9 +27,10 @@ Provides: sidux-art-kde-theme
 Depends: ${misc:Depends},
  sidux-art-ksplash-moros,
  sidux-art-kdm-moros
-Recommends: sidux-art-wallpaper-moros, dmz-cursor-theme
+Recommends: sidux-art-wallpaper-moros,
+ dmz-cursor-theme
 Description: KDE theme for sidux 2009-04 release
- Virtual package providing ksplash, kdm and KDE themes
+ metapackage providing ksplash, kdm and KDE themes
  for sidux 2009-04 (Μόρος) release
 
 Package: sidux-art-kdm-moros
@@ -81,7 +82,8 @@ Provides: sidux-art-xfce-theme
 Depends: ${misc:Depends},
  sidux-art-xsplash-moros,
  sidux-art-gdm-moros
-Recommends: sidux-art-wallpaper-moros, dmz-cursor-theme
+Recommends: sidux-art-wallpaper-moros,
+ dmz-cursor-theme
 Description: Xfce theme for sidux 2009-04 release
- Virtual package providing Xfce-splash and gdm themes
+ metapackage providing Xfce-splash and gdm themes
  for sidux 2009-04 (Μόρος) release

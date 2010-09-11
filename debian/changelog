@@ -43,7 +43,7 @@ sidux-art-moros (0.0.2) unstable; urgency=low
   [ David Creedy ]
   * added normal and wide aspect ratio source svgs
   * update metadata
-  * update splash-xfce background to suit moros themes 
+  * update splash-xfce background to suit moros themes
   * update splash-kde background, makefile and preview images
   * update gdm and kdm themes to use same background as wallpaper
 
